@@ -40,7 +40,7 @@ const SiderBar = () => {
 
   let navigate = useNavigate();
   const [selectedKeys, setSelectedKeys] = useState(['home']);
-  const systemName = getSystemName();
+  const systemName = 'Milk API';
   const logo = getLogo();
   const [isCollapsed, setIsCollapsed] = useState(defaultIsCollapsed);
 
